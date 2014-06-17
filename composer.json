@@ -15,6 +15,9 @@
             "homepage": "https://github.com/atoum/AtoumBundle/graphs/contributors"
         }
     ],
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/M6Web/atoum.git" }
+    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": "2.*",
@@ -22,7 +25,7 @@
         "symfony/finder": "2.*",
         "symfony/dom-crawler": "2.*",
         "symfony/css-selector": "2.*",
-        "atoum/atoum": "dev-master",
+        "atoum/atoum": "@stable",
         "fzaninotto/faker": "1.*"
     },
     "require-dev": {
